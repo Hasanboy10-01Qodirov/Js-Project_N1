@@ -1,0 +1,44 @@
+body {
+  background: #251e31;
+}
+.list {
+  width: 90%;
+  margin: 50px auto;
+  display: flex;
+  gap: 4%;
+  flex-wrap: wrap;
+}
+#cards {
+  max-width: 22%;
+  margin: 25px 0;
+  background: rgb(0, 255, 255);
+  background: linear-gradient(
+    322deg,
+    rgb(19, 104, 104) -5%,
+    rgb(167, 3, 167) 50%
+  );
+  border: none;
+  transition: all 0.3s;
+}
+#cards:hover {
+  box-shadow: 10px 10px 25px rgb(255, 0, 0);
+}
+#cards:active {
+  box-shadow: 10px 10px 20px rgb(88, 4, 145);
+}
+img {
+  width: 100%;
+  min-height: 200px;
+}
+#button {
+  margin-left: 20px;
+  transition: all 0.3s;
+  border: none;
+}
+#button:hover {
+  box-shadow: 8px 7px 10px rgb(56, 160, 207);
+}
+#button:active {
+  box-shadow: 8px 7px 10px rgb(255, 99, 203);
+  border: none;
+}
